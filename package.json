@@ -7,7 +7,7 @@
     "@react-pdf/renderer": "^1.6.8",
     "@types/jspdf": "^1.3.3",
     "@types/remove-markdown": "^0.1.1",
-    "ajv": "^6.12.2",
+    "ajv": "^6.12.3",
     "amplitude-js": "^6.2.0",
     "base64-arraybuffer": "^0.2.0",
     "classnames": "^2.2.6",
@@ -20,7 +20,7 @@
     "grommet-icons": "^4.4.0",
     "js-yaml": "colinking/js-yaml#2a635bc6563d609c0124fcbdcb0ebcaf7dd12d40",
     "ky": "^0.19.1",
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.20",
     "moment": "^2.24.0",
     "object.values": "^1.1.1",
     "polished": "^3.5.1",
@@ -29,11 +29,12 @@
     "react-dom": "^16.13.1",
     "react-dropzone": "^11.0.1",
     "react-number-format": "^4.4.1",
-    "react-scripts": "3.4.1",
+    "react-scripts": "4.0.0",
     "remove-markdown": "^0.3.0",
     "styled-components": "^5.1.0",
     "uuid": "^7.0.3",
-    "validator": "^13.0.0"
+    "validator": "^13.0.0",
+    "snyk": "^1.437.0"
   },
   "scripts": {
     "start": "SKIP_PREFLIGHT_CHECK=true react-scripts start",
@@ -43,7 +44,9 @@
     "test": "jest --testPathIgnorePatterns 'backend/.*'",
     "eject": "react-scripts eject",
     "lint:check": "eslint '**/*.{js,jsx,ts,tsx}' --max-warnings=0 && prettier --check .",
-    "lint": "eslint --fix '**/*.{js,jsx,ts,tsx}' --max-warnings=0 && prettier --write ."
+    "lint": "eslint --fix '**/*.{js,jsx,ts,tsx}' --max-warnings=0 && prettier --write .",
+    "snyk-protect": "snyk protect",
+    "prepare": "yarn run snyk-protect"
   },
   "browserslist": {
     "production": [
@@ -147,5 +150,6 @@
     "ts-jest": "^25.4.0",
     "typescript": "^3.8.3",
     "yarnhook": "^0.4.3"
-  }
+  },
+  "snyk": true
 }
