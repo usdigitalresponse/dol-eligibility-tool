@@ -31,7 +31,7 @@
     "react-number-format": "^4.4.1",
     "react-scripts": "4.0.0",
     "remove-markdown": "^0.3.0",
-    "styled-components": "^5.1.0",
+    "styled-components": "^5.2.1",
     "uuid": "^7.0.3",
     "validator": "^13.0.0",
     "snyk": "^1.437.0"
