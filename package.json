@@ -20,7 +20,7 @@
     "grommet-icons": "^4.5.0",
     "js-yaml": "3.14.1",
     "ky": "^0.25.0",
-    "lodash": "^4.17.20",
+    "lodash": "^4.17.21",
     "moment": "^2.29.1",
     "object.values": "^1.1.2",
     "polished": "^3.6.7",
