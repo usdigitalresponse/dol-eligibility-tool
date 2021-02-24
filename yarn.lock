@@ -2072,10 +2072,10 @@
   resolved "https://registry.yarnpkg.com/@react-pdf/png-js/-/png-js-1.0.0.tgz#00fcb969dca4ce82a0a7673413ade039e47b361e"
   integrity sha1-APy5adykzoKgp2c0E63gOeR7Nh4=
 
-"@react-pdf/renderer@^1.6.12":
-  version "1.6.12"
-  resolved "https://registry.yarnpkg.com/@react-pdf/renderer/-/renderer-1.6.12.tgz#66ca65b920cd4b5caba0662c167e6fc53c9d3d79"
-  integrity sha512-WLd+wEbgf0KHyE9u5Em4RBokkRYWuBlU1Qz8HyQk/eCrKXQ49Ec1nEIKofkMl9li96eossAO+qw3Eltor9AOzQ==
+"@react-pdf/renderer@^1.6.13":
+  version "1.6.13"
+  resolved "https://registry.yarnpkg.com/@react-pdf/renderer/-/renderer-1.6.13.tgz#352da407e506b1af8cf8c2b2c1bc79f729530eaa"
+  integrity sha512-bBRqYs3Syg56bF77DKCOe/hzLo0d4QarM2Mao9SBJtqcD4tS3lv3e5rHKqZMVh3BdTwfj3hyi8Gbk+UxNahl6A==
   dependencies:
     "@babel/runtime" "^7.6.2"
     "@react-pdf/fontkit" "^1.13.0"
@@ -6522,6 +6522,13 @@ errno@^0.1.3:
   version "0.1.7"
   resolved "https://registry.yarnpkg.com/errno/-/errno-0.1.7.tgz#4684d71779ad39af177e3f007996f7c67c852618"
   integrity sha512-MfrRBDWzIWifgq6tJj60gkAwtLNb6sQPlcFrSOflcP1aFmmruKQ2wRnze/8V6kgyz7H3FF8Npzv78mZ7XLLflg==
+  dependencies:
+    prr "~1.0.1"
+
+errno@~0.1.7:
+  version "0.1.8"
+  resolved "https://registry.yarnpkg.com/errno/-/errno-0.1.8.tgz#8bb3e9c7d463be4976ff888f76b4809ebc2e811f"
+  integrity sha512-dJ6oBr5SQ1VSd9qkk7ByRgb/1SH4JZjCHSW/mr63/QcXO9zLVxvJ6Oy13nio03rxpSnVDDjFor75SjVeZWPW/A==
   dependencies:
     prr "~1.0.1"
 
