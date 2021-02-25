@@ -9976,3 +9976,5 @@ patch:
         patched: '2021-01-05T15:22:25.410Z'
     - react-scripts > @svgr/webpack > @babel/preset-env > @babel/preset-modules > @babel/plugin-proposal-unicode-property-regex > @babel/helper-create-regexp-features-plugin > @babel/helper-annotate-as-pure > @babel/types > lodash:
         patched: '2021-01-05T15:22:25.410Z'
+    - snyk > snyk-cpp-plugin > @snyk/dep-graph > graphlib > lodash:
+        patched: '2021-02-25T14:23:56.094Z'
