@@ -10,7 +10,7 @@
     "ajv": "^6.12.3",
     "amplitude-js": "^6.2.0",
     "base64-arraybuffer": "^0.2.0",
-    "classnames": "^2.2.6",
+    "classnames": "^2.3.0",
     "copy-to-clipboard": "^3.3.1",
     "email-validator": "^2.0.4",
     "express": "^4.17.1",
