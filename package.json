@@ -33,7 +33,7 @@
     "remove-markdown": "^0.3.0",
     "styled-components": "^5.2.2",
     "uuid": "^7.0.3",
-    "validator": "^13.1.17",
+    "validator": "^13.6.0",
     "snyk": "^1.550.0"
   },
   "scripts": {
