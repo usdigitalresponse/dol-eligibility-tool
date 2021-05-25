@@ -9982,3 +9982,5 @@ patch:
         patched: '2021-04-16T20:45:33.181Z'
     - snyk > @snyk/fix > @snyk/dep-graph > graphlib > lodash:
         patched: '2021-04-16T20:45:33.181Z'
+    - snyk > snyk-docker-plugin > snyk-nodejs-lockfile-parser > @yarnpkg/core > lodash:
+        patched: '2021-05-24T21:29:59.531Z'
